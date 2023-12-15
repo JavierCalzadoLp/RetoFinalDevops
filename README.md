@@ -83,11 +83,11 @@ Para ejecutar las pruebas unitarias, asegúrate de tener instalado Python y las 
 2. Asegúrate de tener un entorno virtual configurado y activado.
 3. Instala las dependencias de desarrollo:
 
-**pip install -r requirements-dev.txt**
+`pip install -r requirements-dev.txt`
 
 4. Ejecuta el comando siguiente para correr las pruebas:
 
-**pytest app/test_routes.py**
+`pytest app/test_routes.py`
 
 
 ## Ejecución Local del Entorno
@@ -97,12 +97,12 @@ Para ejecutar localmente la aplicación y probarla, sigue estos pasos:
 1. Asegúrate de tener configurado y activado un entorno virtual.
 2. Instala las dependencias del proyecto:
 
-**pip install -r requirements.txt**
+`pip install -r requirements.txt`
 
 3. Configura las variables de entorno..
 4. Ejecuta la aplicación:
 
-**python run.py**
+`python run.py`
 
 
 ## Normas de Colaboración
