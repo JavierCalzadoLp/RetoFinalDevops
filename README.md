@@ -72,3 +72,55 @@ Para garantizar un despliegue sin interrupciones, se implementará un modelo de 
 **Conclusiones**
 Este documento técnico establece los fundamentos y las decisiones clave en la arquitectura y ciclo de vida del software para el desarrollo, despliegue y operación efectiva de la solución propuesta. Se espera que sirva como una guía esencial para el equipo de desarrollo y operaciones durante todo el ciclo de vida del proyecto.
 
+
+# Guía para desarrolladores
+
+## Ejecución de Pruebas
+
+Para ejecutar las pruebas unitarias, asegúrate de tener instalado Python y las dependencias necesarias. Utilizamos `pytest` como herramienta para realizar las pruebas. Sigue estos pasos:
+
+1. Abre una terminal en la raíz del proyecto.
+2. Asegúrate de tener un entorno virtual configurado y activado.
+3. Instala las dependencias de desarrollo:
+
+**pip install -r requirements-dev.txt**
+
+4. Ejecuta el comando siguiente para correr las pruebas:
+
+**pytest app/test_routes.py**
+
+
+## Ejecución Local del Entorno
+
+Para ejecutar localmente la aplicación y probarla, sigue estos pasos:
+
+1. Asegúrate de tener configurado y activado un entorno virtual.
+2. Instala las dependencias del proyecto:
+
+**pip install -r requirements.txt**
+
+3. Configura las variables de entorno..
+4. Ejecuta la aplicación:
+
+**python run.py**
+
+
+## Normas de Colaboración
+
+Para mantener un flujo de trabajo ordenado y colaborativo, seguimos estas normas de colaboración:
+
+- **Modelo de Ramas:**
+Utilizamos el modelo de ramas `GitFlow` para el desarrollo colaborativo:
+- `main`: rama principal que refleja la versión en producción.
+- `develop`: rama de desarrollo donde se integran las características.
+- `feature/<nombre>`: ramas para nuevas características.
+- `hotfix/<nombre>`: ramas para correcciones urgentes.
+
+- **Pull Requests:**
+Antes de fusionar una rama de `feature` en `develop`, abre un Pull Request y solicita una revisión de código.
+
+- **Convención de Mensajes de Commit:**
+Seguimos la convención de mensajes de commit [Conventional Commits](https://www.conventionalcommits.org/) para mantener un historial de cambios claro y comprensible.
+
+¡Gracias por contribuir al proyecto! Si tienes dudas o sugerencias, no dudes en comunicarte con el equipo.
+
