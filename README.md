@@ -26,7 +26,7 @@ En cuanto a la estructura del documento, se compone de tres secciones principale
 
 ## Documento Técnico: Arquitectura de la Solución Software
 
-- **Introducción**
+- **Introducción.**
 Este documento presenta una descripción detallada de la arquitectura propuesta para la solución software a desarrollar, destacando los servicios, métodos y tecnologías seleccionadas para garantizar una solución robusta y altamente escalable. La arquitectura propuesta se basa en tecnologías modernas y buenas prácticas de DevOps para lograr un despliegue eficiente y una gestión efectiva del ciclo de vida del software.
 
 - **Arquitectura del Sistema**
